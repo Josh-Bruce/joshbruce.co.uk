@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+/**
+ * The home page
+ */
+Route::get('/', 'PagesController@index');
