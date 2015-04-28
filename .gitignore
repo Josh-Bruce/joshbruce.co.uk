@@ -1,6 +1,17 @@
+# Laravel
 /vendor
-/node_modules
 .env
-.DS_Store
+
+# Packages
+/node_modules
+/bower_components
+
+# IDE / Editor
 .idea/
 _ide_helper.php
+
+# OS
+.DS_Store
+Thumbs.db
+Icon?
+.cache
