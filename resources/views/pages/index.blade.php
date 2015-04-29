@@ -1,7 +1,11 @@
 @extends('layout.master')
 
+@section('title')
+    Josh Bruce
+@endsection
+
 @section('fonts')
-    <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+    {{--<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>--}}
 @endsection
 
 @section('content')
