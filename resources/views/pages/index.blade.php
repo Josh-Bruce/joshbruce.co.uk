@@ -4,12 +4,23 @@
     Josh Bruce
 @endsection
 
-@section('fonts')
-    {{--<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>--}}
+@section('main')
+    <div class="profile">
+        <h1 class="full-name">Josh Bruce</h1>
+        <h2 class="job-title">iOS Developer</h2>
+    </div>
+
+    <div class="badge" id="wwdc-2014">
+        {{--<span class="badge-title">WWDC 2014</span>--}}
+        {{--<span class="badge-footer">Student Scholarship</span>--}}
+    </div>
 @endsection
 
-@section('content')
-    <div class="content">
-        <h1 class="title">Josh Bruce</h1>
-    </div>
+@section('footer')
+    <ul class="list-inline" id="social-icons">
+        <li><a href="" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    </ul>
 @endsection

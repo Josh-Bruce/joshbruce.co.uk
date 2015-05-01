@@ -16,6 +16,7 @@ var bower_path = 'vendor/bower_components';
 var paths = {
     jquery:         bower_path + '/jquery',
     bootstrap:      bower_path + '/bootstrap-sass-official/assets',
+    fontawesome:    bower_path + '/font-awesome',
 
     output:         'public'
 };
@@ -23,11 +24,13 @@ var paths = {
 elixir(function(mix) {
     mix.sass('app.scss', paths.output + '/css', {
        includePaths: [
-           paths.bootstrap + '/stylesheets'
+           paths.bootstrap + '/stylesheets',
+           paths.fontawesome + '/scss'
        ]
     });
 
     mix.copy(paths.bootstrap + '/fonts/bootstrap/**', paths.output + '/fonts');
+    mix.copy(paths.fontawesome + '/fonts/**', paths.output + '/fonts');
 
     mix.scripts([
         paths.jquery + '/dist/jquery.js',

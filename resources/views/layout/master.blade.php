@@ -19,9 +19,24 @@
 </head>
 <body>
 
-    <div class="container">
-        @yield('content')
-    </div>
+    <!-- Header -->
+    <header>
+
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+        <div class="container">
+            @yield('main')
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            @yield('footer')
+        </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="{{ elixir('js/app.js') }}"></script>
