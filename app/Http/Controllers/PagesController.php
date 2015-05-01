@@ -8,20 +8,20 @@ class PagesController extends Controller {
 	 * @var array
 	 */
 	public static $social = [
-		'github' 	=> '',
-		'linkedin' 	=> '',
-		'twitter' 	=> '',
-		'facebook' 	=> ''
+		'github' 	=> 'https://github.com/Josh-Bruce',
+		'linkedin' 	=> 'https://www.linkedin.com/profile/view?id=238599636',
+		'twitter' 	=> 'https://twitter.com/Brucey125',
+		'facebook' 	=> 'https://www.facebook.com/joshbrucie'
 	];
 
 	/**
 	 * Show the application home page
 	 *
-	 * @return Response
+	 * @return \Response
 	 */
 	public function index()
 	{
-		return view('pages.index');
+		return view('pages.index')->with('social', self::$social);
 	}
 
 }

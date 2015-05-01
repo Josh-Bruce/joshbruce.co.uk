@@ -18,9 +18,9 @@
 
 @section('footer')
     <ul class="list-inline" id="social-icons">
-        <li><a href="" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="{{ $social['github'] }}" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="{{ $social['linkedin'] }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="{{ $social['twitter'] }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="{{ $social['facebook'] }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
     </ul>
 @endsection
