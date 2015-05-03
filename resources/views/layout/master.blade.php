@@ -32,7 +32,7 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="navbar-fixed-bottom">
         <div class="container">
             @yield('footer')
         </div>

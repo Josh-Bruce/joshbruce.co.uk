@@ -6561,13 +6561,14 @@ body {
   height: 100%;
   color: #ffffff;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
   background-color: #353d48; }
 
 .container {
   text-align: center; }
 
 .profile {
-  margin-top: 10%;
+  margin-top: 15%;
   text-align: center; }
 
 .full-name {
@@ -6579,12 +6580,25 @@ body {
   margin: 0; }
 
 .badge {
-  margin: 4em 0;
+  margin: 4em 1em;
   width: 146px;
   height: 225px;
   border-radius: 4px;
   position: relative;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-weight: 100; }
+  .badge .badge-logo {
+    margin: 2em 0 0.5em 0;
+    font-size: 2em; }
+  .badge .badge-title {
+    font-size: 1.25em; }
+  .badge .badge-footer {
+    font-size: 0.75em;
+    bottom: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
 
 .badge::after {
   content: '';
@@ -6604,6 +6618,8 @@ body {
 
 ul#social-icons a {
   color: #ffffff; }
+  ul#social-icons a:hover {
+    color: #e6e6e6; }
 
 
 /*# sourceMappingURL=app.css.map */
