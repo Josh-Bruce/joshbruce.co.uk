@@ -1,0 +1,7 @@
+{
+  "name": "Josh Bruce Personal Website - Laravel 5",
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.4",
+    "font-awesome": "~4.3.0"
+  }
+}
