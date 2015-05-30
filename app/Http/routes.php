@@ -3,4 +3,4 @@
 /**
  * The home page
  */
-Route::get('/', 'PagesController@index');
+Route::get('/', ['as' => 'home', 'uses' => 'PagesController@index']);
