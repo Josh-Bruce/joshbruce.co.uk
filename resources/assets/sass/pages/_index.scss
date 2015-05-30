@@ -14,7 +14,7 @@ body {
 }
 
 .profile {
-  margin-top: 15%;
+  margin-top: 25%;
   text-align: center;
 }
 
@@ -71,6 +71,10 @@ body {
 
 #wwdc-2014 {
   @include gradient-directional($start-color: $wwdc-2014-start-colour, $end-color: $wwdc-2014-finish-colour, $deg: 135deg);
+}
+
+#wwdc-2015 {
+  @include gradient-directional($start-color: $wwdc-2015-start-colour, $end-color: $wwdc-2015-finish-colour, $deg: 180deg);
 }
 
 ul#social-icons {
