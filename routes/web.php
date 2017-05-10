@@ -1,16 +1,10 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
 Route::get('/', function () {
-    return view('welcome');
+    return view('index')->with(['social' => [
+		'github' 	=> 'https://github.com/Josh-Bruce',
+		'linkedin' 	=> 'https://www.linkedin.com/profile/view?id=238599636',
+		'twitter' 	=> 'https://twitter.com/Brucey125',
+		'facebook' 	=> 'https://www.facebook.com/joshbrucie'
+	]]);
 });
