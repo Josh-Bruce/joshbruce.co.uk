@@ -51,5 +51,6 @@
 
     <!-- Scripts -->
     <script src="{{ elixir('js/app.js') }}"></script>
+    <script src="https://use.fontawesome.com/4f266d8fc1.js"></script>
 </body>
 </html>

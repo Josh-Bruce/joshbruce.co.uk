@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  color: $text-colour;
+  font-family: $font-family-sans-serif;
+  font-weight: 100;
+  background-color: $background-colour;
+}
+
+.container {
+  text-align: center;
+}
+
+.profile {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.full-name {
+  font-size: 4em;
+  margin: 0;
+}
+
+.job-title {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.badge {
+  margin: 4em 1em;
+  width: 146px;
+  height: 225px;
+  border-radius: 4px;
+  position: relative;
+  background-color: $text-colour;
+  font-weight: 100;
+
+  .badge-logo {
+    margin: 2em 0 0.5em 0;
+    font-size: 2em;
+  }
+
+  .badge-title {
+    font-size: 1.25em;
+  }
+
+  .badge-footer {
+    font-size: 0.75em;
+    bottom: 1em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+.badge::after {
+  content: '';
+  display: block;
+  background: $background-colour;
+  width: 55px;
+  height: 9px;
+  border-radius: 5px;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -27px;
+}
+
+#wwdc-2014 {
+  @include gradient-directional($start-color: $wwdc-2014-start-colour, $end-color: $wwdc-2014-finish-colour, $deg: 135deg);
+}
+
+#wwdc-2015 {
+  @include gradient-directional($start-color: $wwdc-2015-start-colour, $end-color: $wwdc-2015-finish-colour, $deg: 180deg);
+}
+
+ul#social-icons {
+  a {
+    color: $text-colour;
+
+    &:hover {
+      color: darken($text-colour, 10);
+    }
+  }
+}
