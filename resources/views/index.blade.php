@@ -15,14 +15,14 @@
     <div class="badge" id="wwdc-2014">
         <i class="fa fa-apple badge-logo"></i><br />
         <span class="badge-title">WWDC 2014</span><br />
-        <span class="badge-footer">Scholarship Receipient</span>
+        <span class="badge-footer">Scholarship Recipient</span>
     </div>
 
     <!-- WWDC 2014 -->
     <div class="badge" id="wwdc-2015">
         <i class="fa fa-apple badge-logo"></i><br />
         <span class="badge-title">WWDC 2015</span><br />
-        <span class="badge-footer">Scholarship Receipient</span>
+        <span class="badge-footer">Scholarship Recipient</span>
     </div>
 @endsection
 
